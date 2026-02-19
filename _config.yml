@@ -3,6 +3,12 @@ author: "h4ra"
 description: "A blog for the 80-year-old me."
 remote_theme: jekyll/minima
 
+# Plugins help GitHub handle the theme and CSS
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
 # Social links
 github_username: h4ra
 
@@ -17,8 +23,3 @@ header_pages:
 # Tells Jekyll where to look for your custom design
 sass:
   style: compressed
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-seo-tag
