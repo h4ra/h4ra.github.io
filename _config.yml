@@ -10,5 +10,6 @@ github_username: h4ra
 show_excerpts: true
 
 header_pages:
+  - index.md
   - about.md
   - lessons.md
