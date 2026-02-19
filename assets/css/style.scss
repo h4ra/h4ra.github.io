@@ -2,16 +2,16 @@
 ---
 @import "{{ site.theme }}";
 
-// 1. Import Playfair Display from Google Fonts
+// 1. FONT IMPORT (Must be at the top of your custom code)
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
 
-// 2. Apply it specifically to your Site Title
+// 2. SITE TITLE (h4ra's Life Journey)
 .site-title {
   font-family: 'Playfair Display', serif !important;
-  font-size: 28px;      // Making it a bit larger for that "classic" feel
-  font-weight: 700;     // Bold weight
-  letter-spacing: 0.5px;
+  font-size: 28px !important;
 }
+
+// 3. BLOG POST TITLES
 .post-link, .post-title {
   font-family: 'Playfair Display', serif !important;
 }
