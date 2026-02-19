@@ -13,3 +13,6 @@ header_pages:
   - index.md
   - about.md
   - lessons.md
+
+  # Hyde specific settings
+sidebar_label: "h4ra"
