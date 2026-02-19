@@ -1,7 +1,7 @@
 title: "h4ra's Life Journey"
 author: "h4ra"
 description: "A blog for the 80-year-old me."
-remote_theme: mmistakes/jekyll-theme-basically-basic
+remote_theme: jekyll/minima
 
 # Social links
 github_username: h4ra
