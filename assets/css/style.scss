@@ -2,16 +2,16 @@
 ---
 @import "{{ site.theme }}";
 
-// 1. FONT IMPORT (Must be at the top of your custom code)
+// 1. FONT IMPORT
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
 
-// 2. SITE TITLE (h4ra's Life Journey)
+// 2. SITE TITLE
 .site-title {
   font-family: 'Playfair Display', serif !important;
   font-size: 28px !important;
 }
 
-// 3. BLOG POST TITLES
+// 3. BLOG POST TITLES (Matches the site title)
 .post-link, .post-title {
   font-family: 'Playfair Display', serif !important;
 }
