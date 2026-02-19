@@ -3,8 +3,6 @@ layout: home
 title: 
 ---
 
-## Letters to My Future Self 🕰️
-
 Welcome to my little corner of the internet. I’m building this not just to learn, but to remember. 
 
 To the **80-year-old me** who might find this one day: 
