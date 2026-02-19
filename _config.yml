@@ -8,3 +8,6 @@ github_username: h4ra
 
 # Layout settings
 show_excerpts: true
+
+header_pages:
+  - about.md
