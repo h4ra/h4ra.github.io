@@ -14,3 +14,6 @@ header_pages:
   - about.md
   - lessons.md
 
+# Tells Jekyll where to look for your custom design
+sass:
+  style: compressed
