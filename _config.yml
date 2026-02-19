@@ -11,3 +11,4 @@ show_excerpts: true
 
 header_pages:
   - about.md
+  - lessons.md
