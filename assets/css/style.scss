@@ -1,18 +1,15 @@
 ---
 ---
-// Use the variable version to find the remote theme's CSS
-@import "{{ site.theme }}";
+// Do NOT use @import "minima"; 
+// Use this instead:
+@import "minima/initialize";
+@import "minima/base";
+@import "minima/layout";
+@import "minima/syntax-highlighting";
 
-// 1. FONT IMPORT
+// Now add your font
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
 
-// 2. SITE TITLE
 .site-title {
-  font-family: 'Playfair Display', serif !important;
-  font-size: 28px !important;
-}
-
-// 3. BLOG POST TITLES
-.post-link, .post-title {
   font-family: 'Playfair Display', serif !important;
 }
