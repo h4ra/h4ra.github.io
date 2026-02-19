@@ -17,3 +17,8 @@ header_pages:
 # Tells Jekyll where to look for your custom design
 sass:
   style: compressed
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
