@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: 
 ---
 
 ## Letters to My Future Self 🕰️
