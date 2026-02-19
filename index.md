@@ -1,9 +1,9 @@
 ---
 layout: home
-title:
+title:   
 ---
 
-# Letters to My Future Self 🕰️
+## Letters to My Future Self 🕰️
 
 Welcome to my little corner of the internet. I’m building this not just to learn, but to remember. 
 
