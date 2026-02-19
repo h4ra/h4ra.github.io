@@ -1,18 +1,14 @@
-title: "h4ra's Life Journey"
-author: "h4ra"
-description: "A blog for the 80-year-old me."
+title: h4ra's Life Journey
+author: h4ra
+description: A blog for the 80-year-old me.
 remote_theme: jekyll/minima
 
-# Plugins help GitHub handle the theme and CSS
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
-# Social links
 github_username: h4ra
-
-# Layout settings
 show_excerpts: true
 
 header_pages:
@@ -20,6 +16,5 @@ header_pages:
   - about.md
   - lessons.md
 
-# Tells Jekyll where to look for your custom design
 sass:
   style: compressed
