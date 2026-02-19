@@ -11,3 +11,11 @@ To the **80-year-old me** who might find this one day:
 ---
 
 ### 📝 Latest Entries
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+  
+  .site-title, .post-link, .post-title {
+    font-family: 'Playfair Display', serif !important;
+  }
+</style>
