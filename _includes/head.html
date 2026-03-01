@@ -3,21 +3,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 
 <style>
-  /* 1. Header/Titles stay elegant Playfair Display */
-  .site-title, .post-link, .post-title, h1, h2, h3 {
-    font-family: 'Playfair Display', serif !important;
+  /* 1. The Background Color */
+  body {
+    background-color: #eceff1 !important; /* A clean, light bluish-grey */
+    /* If you want it DARKER, use #37474f instead */
+    margin: 0;
+    padding: 0;
   }
 
-  /* 2. The body text of your posts becomes Consolas */
-  body, p, li {
-    font-family: 'Consolas', 'Monaco', 'Lucida Console', 'Courier New', monospace !important;
-    font-size: 11px;
-    line-height: 1.6; /* Makes it easier to read */
-    color: #333;
+  /* 2. Fonts */
+  .site-title, h1, h2, h3 { 
+    font-family: 'Playfair Display', serif !important; 
+    color: #263238 !important; /* Deep blue-grey for text */
   }
-
-  .svg-icon {
-  display: none !important;
-}
   
+  p, li, div { 
+    font-family: 'Consolas', 'Monaco', monospace !important; 
+    color: #455a64 !important;
+  }
+
+  /* 3. Hide the giant icon from earlier */
+  .svg-icon {
+    display: none !important;
+  }
 </style>
