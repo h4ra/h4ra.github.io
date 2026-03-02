@@ -1,30 +1,83 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
 
-<style>
-  /* 1. The Background Color - Applied to everything */
-  html, body, .site-header, .site-footer, .page-content {
-    background-color: #f4f7f6 !important; /* Misr Very light, almost white with a blue hint. */
-  }
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 
-  /* 2. Site Title (Playfair Display) */
-  .site-title { 
-    font-family: 'Playfair Display', serif !important; 
-    color: #000000 !important; /* Pure Black */
-    font-size: 22px !important; /* Keeping title readable */
-  }
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet"> 
 
-  /* 3. Body Text (Consolas, Size 11, Black) */
-  body, p, li, div, a, .post-link { 
-    font-family: 'Consolas', 'Monaco', monospace !important; 
-    color: #000000 !important; /* Pure Black */
-    font-size: 11px !important; /* Your requested size */
-    line-height: 1.5;
-  }
+  
 
-  /* 4. Hide the giant icon */
-  .svg-icon {
-    display: none !important;
-  }
-</style>
+<style> 
+
+  /* 1. The Background */ 
+
+  html, body, .site-header, .site-footer, .page-content { 
+
+    background-color: #f4f7f6 !important;  
+
+  } 
+
+  
+
+  /* 2. The New "Hey Hara" Title */ 
+
+  .site-title {  
+
+    display: block !important; 
+
+    text-align: center !important; /* Centers the text */ 
+
+    float: none !important;      /* Overrides theme layout */ 
+
+    margin: 40px auto !important; /* Adds space above/below */ 
+
+     
+
+    font-family: 'Playfair Display', serif !important;  
+
+    font-size: 36px !important;  
+
+    font-style: italic !important; /* Makes it Italic */ 
+
+    font-weight: 700 !important; 
+
+    color: #000000 !important; 
+
+     
+
+    text-decoration: none !important; /* Removes the underline */ 
+
+    border-bottom: none !important;  /* Double-check for theme borders */ 
+
+  } 
+
+  
+
+  /* Remove underline specifically if it's acting as a link */ 
+
+  .site-title:hover, .site-title:visited, .site-title:active { 
+
+    text-decoration: none !important; 
+
+    color: #000000 !important; 
+
+  } 
+
+  
+
+  /* 3. Body Text (Consolas, Size 11) */ 
+
+  body, p, li, div, a, .post-link {  
+
+    font-family: 'Consolas', monospace !important;  
+
+    color: #000000 !important; 
+
+    font-size: 11px !important; 
+
+  } 
+
+  
+
+  .svg-icon { display: none !important; } 
+
+</style> 
